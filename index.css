@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.todo-content {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  align-items: center;
+  padding-bottom: 5px
+}
+
+.avatar {
+  height: 100px !important;
+  width: 100px !important;
+  margin-top: 15px;
+}
+
+.todoContent {
+  border: 2px solid #3f51b5;
+  border-radius: 10px;
+  min-height: 56px;
+  height: auto;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-bottom: 3%;
+  box-shadow: 0 0 10px #3f51b5;
+  background: white;
+  flex-direction: column;
+}
+
+.todoComponentTitleContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.todo-list-container {
+  position: relative;
+  /* display: flex;
+  flex-direction: column-reverse; */
+}
+
+.back-container {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.done .todoComponentTitle {
+  text-decoration: line-through;
+  color: red;
+}
+
+.Checkbox {
+  display: flex !important;
+  align-items: center;
+}
